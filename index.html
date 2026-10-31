@@ -582,6 +582,15 @@
       border-color: var(--cyan);
     }
 
+    a.project {
+      cursor: pointer;
+    }
+
+    a.project:focus-visible {
+      outline: 2px solid var(--cyan);
+      outline-offset: 5px;
+    }
+
     .project-label {
       color: var(--cyan);
 
@@ -1438,7 +1447,12 @@
 
         <!-- FUNXPLORER -->
 
-        <article class="project">
+        <a
+          class="project"
+          href="https://funxplorer.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
 
           <div>
 
@@ -1453,10 +1467,10 @@
           </div>
 
           <p>
-            WEB EXPLORATION
+            WEB EXPLORATION ↗
           </p>
 
-        </article>
+        </a>
 
 
         <!-- FUN LABS -->
